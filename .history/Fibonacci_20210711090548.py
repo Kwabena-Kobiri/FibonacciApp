@@ -41,12 +41,8 @@ generated_label.grid(row=8, column=0, sticky=W, padx=5)
 sequence_list = Listbox(root, width=50, height=5)
 sequence_list.grid(row=9, columnspan=3, pady=20, padx=10, sticky=EW)
 
-# Button for clearing the list of generated sequences.
+#Button for clearing the list of generated sequences.
 button2 = Button(root, text='Clear field', font=('bold',10), fg='white', bg='#1e9688')
 button2.grid(row=10, column=1, pady=10, padx=10, sticky=W)
-
-# Label for styling
-style_label = Label(root, bg='aqua')
-style_label.grid(row=14, column=0, columnspan=4, sticky=EW, padx=20, rowspan=3)
 
 root.mainloop()

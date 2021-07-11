@@ -47,6 +47,6 @@ button2.grid(row=10, column=1, pady=10, padx=10, sticky=W)
 
 # Label for styling
 style_label = Label(root, bg='aqua')
-style_label.grid(row=14, column=0, columnspan=4, sticky=EW, padx=20, rowspan=3)
+style_label.grid(row=14, column=0, columnspan=4, sticky=EW, padx=20, height=3)
 
 root.mainloop()
