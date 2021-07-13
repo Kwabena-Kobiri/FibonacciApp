@@ -20,10 +20,10 @@ def generate_fibonacci():
         value1 = int(entry1.get())
         value2 = int(entry2.get())
 
-        num1 = 1
+        num1 = 0
         num2 = 1
         sum = 0
-        sequence = [num1, num2] # 1,1,2,3,5... num3
+        sequence = [num1, num2]
 
         # Check if starting number is equal to 1
         if value2 != 1:

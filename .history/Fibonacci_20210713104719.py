@@ -20,15 +20,15 @@ def generate_fibonacci():
         value1 = int(entry1.get())
         value2 = int(entry2.get())
 
-        num1 = 1
+        num1 = 0
         num2 = 1
         sum = 0
-        sequence = [num1, num2] # 1,1,2,3,5... num3
+        sequence = [num1, num2]
 
         # Check if starting number is equal to 1
-        if value2 != 1:
-            print('Starting number should be the integer one (1)')
-            tkinter.messagebox.showinfo("Input Error", "Starting number should be the integer 1")
+        # if value2 != 1:
+        #     print('Starting number should be the integer one (1)')
+        #     tkinter.messagebox.showinfo("Input Error", "Starting number should be the integer 1")
         # Checking if value falls between 0 and 24    
         if 0 > value1  or value1 > 24:
             print('Number of elements to be generated should be between the integers zero(0) and twenty four(24)')

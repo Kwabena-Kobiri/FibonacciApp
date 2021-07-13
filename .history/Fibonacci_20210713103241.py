@@ -23,14 +23,14 @@ def generate_fibonacci():
         num1 = 1
         num2 = 1
         sum = 0
-        sequence = [num1, num2] # 1,1,2,3,5... num3
+        sequence = [num1, num2]
 
         # Check if starting number is equal to 1
         if value2 != 1:
             print('Starting number should be the integer one (1)')
             tkinter.messagebox.showinfo("Input Error", "Starting number should be the integer 1")
         # Checking if value falls between 0 and 24    
-        if 0 > value1  or value1 > 24:
+        elif 0 > value1  or value1 > 24:
             print('Number of elements to be generated should be between the integers zero(0) and twenty four(24)')
             tkinter.messagebox.showinfo("Input Error", "Number of elements should be from 0 to 24")   
         else:
@@ -55,8 +55,8 @@ def sequence_items(items):
         sequence_list.insert(i, items[i])
 
     # Colorize alternating lines of the listbox - #f0f0ff
-    # for i in range(0,len(items),2):
-    #     sequence_list.itemconfigure(i, background='blue', fg='white')    
+    for i in range(0,len(items),2):
+        sequence_list.itemconfigure(i, background='blue', fg='white')    
 
 
 # Label for description of application

@@ -23,7 +23,7 @@ def generate_fibonacci():
         num1 = 1
         num2 = 1
         sum = 0
-        sequence = [num1, num2] # 1,1,2,3,5... num3
+        sequence = [num1, num2]
 
         # Check if starting number is equal to 1
         if value2 != 1:

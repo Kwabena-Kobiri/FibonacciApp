@@ -30,8 +30,8 @@ def fibonacci():
 
     if starting != 1:
         print('Starting number should be the integer one (1)')
-    # elif 0 > num  or num > 24:
-    #     print('Number of elements to be generated should be between the integers zero(0) and twenty four(24)')
+    elif 0 > num  or num > 24:
+        print('Number of elements to be generated should be between the integers zero(0) and twenty four(24)')
     else:
         for i in range(2, num):
             sum = num1 + num2
